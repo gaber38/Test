@@ -10,7 +10,12 @@ public class Controller
     @RequestMapping(value = "test")
     public String test()
     {
-        return "Hello MR.Jenkins";
+        return """
+            Hello MR.Jenkins
+            Iam talking to you from the other side of the world
+            We just test Jenkins hooks
+            see you later
+            """;
     }
 
 }
